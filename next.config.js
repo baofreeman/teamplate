@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  exports: "export",
+  output: "export",
   experimental: {
     appDir: true,
   },
