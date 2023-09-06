@@ -20,6 +20,9 @@ dependencies:
   next-themes:
     specifier: ^0.2.1
     version: 0.2.1(next@13.4.19)(react-dom@18.2.0)(react@18.2.0)
+  pnpm:
+    specifier: ^8.7.4
+    version: 8.7.4
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -5081,6 +5084,12 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       find-up: 5.0.0
+    dev: false
+
+  /pnpm@8.7.4:
+    resolution: {integrity: sha512-/bQ5bXp8l7krhm2QXQVGuPjzNC/Z/p0fK4kw8aIrqG0YthTS9akRKGHiWyaHX623lntCriHBZZPqhbXczqSNVg==}
+    engines: {node: '>=16.14'}
+    hasBin: true
     dev: false
 
   /portscanner@2.2.0:
